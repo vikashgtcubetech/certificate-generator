@@ -50,7 +50,9 @@ body {
     height: 780px;
     position: relative;
     border: 1px solid black;
-    background: url(border.svg);
+    /* background: url(border.svg);
+     */
+     background-image: url('/public/border.svg'); /* Avoid using this */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
