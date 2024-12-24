@@ -33,7 +33,7 @@ function Certificate() {
         if (!element) return;
 
         // Convert the element to a canvas
-        const scale = 10;
+        const scale = 7;
         const canvas = await html2canvas(element, {
             scale,
             useCORS: true,
