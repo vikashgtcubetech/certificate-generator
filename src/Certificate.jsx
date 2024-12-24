@@ -127,7 +127,7 @@ function Certificate() {
                             </div>
 
                             <div>
-                                <button onClick={generatePdf} style={{ padding: '10px 20px', fontSize: '16px' }}>
+                                <button download onClick={generatePdf} style={{ padding: '10px 20px', fontSize: '16px' }}>
                                     Generate PDF
                                 </button>
                             </div>
